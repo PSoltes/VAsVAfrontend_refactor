@@ -1,0 +1,4 @@
+rootProject.name = 'ClimbingFactory'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+// apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+include ':app'
